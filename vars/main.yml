@@ -3,7 +3,7 @@
 packer_io_dependencies:
   - unzip
 packer_io_downloads_path: /var/lib/ansible/packer-io/downloads
-packer_io_install_path: "{{ packer_io_install_prefix }}/packer-{{ packer_io_version }}"
+packer_io_install_path: "{{ packer_io_install_prefix }}"
 packer_io_machine_map:
   i686: 386
   i386: 386
